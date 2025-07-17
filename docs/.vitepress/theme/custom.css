@@ -1,0 +1,39 @@
+
+/* 푸터 스타일 */
+.custom-footer {
+  max-width: 1152px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 40px 24px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.custom-footer h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--vp-c-text-1);
+}
+
+.custom-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-footer li {
+  margin-bottom: 8px;
+}
+
+.custom-footer a {
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+
+.custom-footer a:hover {
+  color: var(--vp-c-brand);
+}
