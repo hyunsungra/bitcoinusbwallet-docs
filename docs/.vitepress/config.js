@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/',
+  ignoreDeadLinks: true,
   title: 'Bitcoin USB Wallet',
   description: 'Bitcoin USB Wallet 관련 정보를 담은 문서 사이트',
   
