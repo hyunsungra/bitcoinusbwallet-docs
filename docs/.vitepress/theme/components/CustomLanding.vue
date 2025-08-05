@@ -30,8 +30,8 @@
         </div>
         
         <div class="cta-container fade-in">
-          <a href="/download" class="cta-button cta-primary">
-            지금 당장 다운로드
+          <a href="/ko/guide/getting-started" class="cta-button cta-primary">
+            지금 시작하기
           </a>
         </div>
       </div>
@@ -265,7 +265,7 @@
           안전하게 오랜시간 당신의 코인을 보관하세요.
         </p>
         <div class="cta-container fade-in">
-          <a href="/download" class="cta-button cta-primary" style="font-size: 1.5rem; padding: 1.5rem 4rem;">
+          <a href="/ko/guide/getting-started" class="cta-button cta-primary" style="font-size: 1.5rem; padding: 1.5rem 4rem;">
             지금 당장 내 코인 구출하기
           </a>
         </div>

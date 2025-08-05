@@ -30,8 +30,8 @@
         </div>
         
         <div class="cta-container fade-in">
-          <a href="/en/download" class="cta-button cta-primary">
-            Download Right Now
+          <a href="/guide/getting-started" class="cta-button cta-primary">
+            Get Started Now
           </a>
         </div>
       </div>
@@ -265,7 +265,7 @@
           Safely store your coins for a long time.
         </p>
         <div class="cta-container fade-in">
-          <a href="/en/download" class="cta-button cta-primary" style="font-size: 1.5rem; padding: 1.5rem 4rem;">
+          <a href="/guide/getting-started" class="cta-button cta-primary" style="font-size: 1.5rem; padding: 1.5rem 4rem;">
             Rescue My Coins Right Now
           </a>
         </div>
