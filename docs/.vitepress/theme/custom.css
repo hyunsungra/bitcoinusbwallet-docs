@@ -1,4 +1,9 @@
 
+/* 전역 폰트 설정 */
+:root {
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
 /* 푸터 스타일 */
 .custom-footer {
   max-width: 1152px;

@@ -1,52 +1,79 @@
-# Bitcoin USB Wallet이란?
+# What is Bitcoin USB Wallet?
 
-Bitcoin USB Wallet은 Bitcoin을 안전하게 보관하고 관리할 수 있는 USB 형태의 하드웨어 지갑에 대한 종합적인 정보를 제공하는 문서 사이트입니다.
+## Overview
 
-## 왜 Bitcoin USB Wallet인가?
+Bitcoin USB Wallet is a **decentralized personal Bitcoin wallet program**. It's designed as a portable application that can be used immediately after download without any installation process, allowing you to store and use it safely on a USB drive.
 
-Bitcoin의 안전한 보관은 암호화폐 사용자에게 가장 중요한 과제입니다. Bitcoin USB Wallet은 다음과 같은 목표를 가지고 있습니다:
+## Key Features
 
-- **쉬운 설명**: 복잡한 기술을 누구나 이해할 수 있도록 쉽게 설명합니다
-- **실용적인 정보**: 실제 사용에 도움이 되는 실용적인 가이드를 제공합니다
-- **최신 정보**: 빠르게 변화하는 시장의 최신 정보를 제공합니다
+### 🔐 Complete Offline Security
+- Wallet creation and management possible without internet connection
+- Perfect protection from hacking and online threats
 
-## 누구를 위한 것인가?
+### 💼 Portable Design
+- No installation required - run immediately after download
+- Store both program and wallet files together on USB drive
+- Can be executed on any computer
 
-Bitcoin USB Wallet은 다음과 같은 사람들을 위해 만들어졌습니다:
+### 🔒 Strong Security
+- Wallet information is encrypted and saved as files
+- Encrypted wallet files are protected with passwords
 
-- Bitcoin을 안전하게 보관하고 싶은 사용자
-- 하드웨어 지갑에 대해 알고 싶은 초보자
-- USB 지갑의 작동 원리를 이해하고 싶은 개발자
-- 보안성 높은 암호화폐 보관 방법을 찾는 투자자
+## Core Functions
 
-## 무엇을 배울 수 있나요?
+### 1. Wallet Creation
+Create a new Bitcoin wallet. The following are provided upon creation:
+- Bitcoin address
+- Private key
+- Recovery seed phrase
+- Recovery passphrase
 
-Bitcoin USB Wallet에서는 다음과 같은 내용을 다룹니다:
+### 2. Load Wallet
+Load and use previously created encrypted wallet files:
+- Select encrypted wallet file
+- Decrypt with password input
+- Check wallet information
 
-### USB 하드웨어 지갑 기초
-- USB 지갑의 작동 원리
-- 다양한 USB 지갑 종류
-- 하드웨어 보안의 중요성
-- 개인키와 시드 문구 관리
+### 3. Bitcoin Transfer
+Send your Bitcoin to other addresses:
+- Enter recipient address
+- Set transfer amount
+- Adjust transaction fees
 
-### 설치 및 설정
-- USB 지갑 초기 설정
-- 펌웨어 업데이트
-- 백업과 복구 방법
-- 다중 서명 설정
+## Recommended Usage
 
-### 실전 사용법
-- Bitcoin 송금과 수신
-- 트랜잭션 서명 과정
-- 다양한 소프트웨어와 연동
-- 보안 모범 사례
+### Using USB Drive
+1. Prepare a dedicated USB drive (minimum 64MB recommended)
+2. Copy Bitcoin USB Wallet executable file to USB
+3. Create wallet and save encrypted wallet file to the same USB
+4. Store USB in a safe place
+5. Connect to computer only when needed
 
-### 고급 기능
-- 라이트닝 네트워크 지원
-- 다중 암호화폐 지원
-- API 활용법
-- 개발자 도구
+### Security Tips
+- **Maintain offline environment**: Perform wallet creation and private key management on computers disconnected from the internet
+- **Create backups**: Keep backups of encrypted wallet files in case USB gets damaged
+- **Strong passwords**: Use sufficiently complex passwords for wallet encryption
+- **Physical security**: Store USB drive in a safe or secure location
 
-## 시작하기
+## Why Bitcoin USB Wallet?
 
-Bitcoin USB Wallet과 함께 안전한 암호화폐 보관의 세계로 첫 걸음을 내딛어보세요. [시작하기](/guide/getting-started) 가이드를 통해 기본적인 개념부터 차근차근 배워나갈 수 있습니다.
+### True Ownership
+Unlike centralized exchanges or online wallet services, users directly own and manage their private keys. This realizes the principle of "Not your keys, not your coins".
+
+### Highest Level of Security
+Operating in an offline environment keeps it safe from online threats like hacking, phishing, and malware. The wallet cannot be accessed without physical access.
+
+### Easy Usability
+Designed for anyone to use easily without complex installation processes or technical knowledge.
+
+## Getting Started
+
+1. Download Bitcoin USB Wallet
+2. Copy executable file to USB drive
+3. Run program on offline computer
+4. Create new wallet or load existing wallet
+5. Start managing Bitcoin safely
+
+---
+
+**Important Note**: If you lose your encrypted wallet file and password, your Bitcoin cannot be recovered. Always maintain secure backups.

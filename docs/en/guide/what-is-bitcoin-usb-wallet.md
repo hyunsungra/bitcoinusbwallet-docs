@@ -1,52 +1,79 @@
 # What is Bitcoin USB Wallet?
 
-Bitcoin USB Wallet is a comprehensive documentation site that provides information about USB-type hardware wallets for safely storing and managing Bitcoin.
+## Overview
+
+Bitcoin USB Wallet is a **decentralized personal Bitcoin wallet program**. It's designed as a portable application that can be used immediately after download without any installation process, allowing you to store and use it safely on a USB drive.
+
+## Key Features
+
+### 🔐 Complete Offline Security
+- Wallet creation and management possible without internet connection
+- Perfect protection from hacking and online threats
+
+### 💼 Portable Design
+- No installation required - run immediately after download
+- Store both program and wallet files together on USB drive
+- Can be executed on any computer
+
+### 🔒 Strong Security
+- Wallet information is encrypted and saved as files
+- Encrypted wallet files are protected with passwords
+
+## Core Functions
+
+### 1. Wallet Creation
+Create a new Bitcoin wallet. The following are provided upon creation:
+- Bitcoin address
+- Private key
+- Recovery seed phrase
+- Recovery passphrase
+
+### 2. Load Wallet
+Load and use previously created encrypted wallet files:
+- Select encrypted wallet file
+- Decrypt with password input
+- Check wallet information
+
+### 3. Bitcoin Transfer
+Send your Bitcoin to other addresses:
+- Enter recipient address
+- Set transfer amount
+- Adjust transaction fees
+
+## Recommended Usage
+
+### Using USB Drive
+1. Prepare a dedicated USB drive (minimum 64MB recommended)
+2. Copy Bitcoin USB Wallet executable file to USB
+3. Create wallet and save encrypted wallet file to the same USB
+4. Store USB in a safe place
+5. Connect to computer only when needed
+
+### Security Tips
+- **Maintain offline environment**: Perform wallet creation and private key management on computers disconnected from the internet
+- **Create backups**: Keep backups of encrypted wallet files in case USB gets damaged
+- **Strong passwords**: Use sufficiently complex passwords for wallet encryption
+- **Physical security**: Store USB drive in a safe or secure location
 
 ## Why Bitcoin USB Wallet?
 
-Safe storage of Bitcoin is the most important challenge for cryptocurrency users. Bitcoin USB Wallet has the following goals:
+### True Ownership
+Unlike centralized exchanges or online wallet services, users directly own and manage their private keys. This realizes the principle of "Not your keys, not your coins".
 
-- **Simple Explanations**: We explain complex technology in a way that anyone can understand
-- **Practical Information**: We provide practical guides that help with real-world usage
-- **Latest Information**: We provide the latest information in the rapidly changing market
+### Highest Level of Security
+Operating in an offline environment keeps it safe from online threats like hacking, phishing, and malware. The wallet cannot be accessed without physical access.
 
-## Who is it for?
-
-Bitcoin USB Wallet is created for:
-
-- Users who want to store Bitcoin safely
-- Beginners who want to learn about hardware wallets
-- Developers who want to understand how USB wallets work
-- Investors looking for highly secure cryptocurrency storage methods
-
-## What can you learn?
-
-Bitcoin USB Wallet covers the following topics:
-
-### USB Hardware Wallet Basics
-- How USB wallets work
-- Different types of USB wallets
-- Importance of hardware security
-- Private key and seed phrase management
-
-### Installation and Setup
-- Initial USB wallet setup
-- Firmware updates
-- Backup and recovery methods
-- Multi-signature setup
-
-### Practical Usage
-- Sending and receiving Bitcoin
-- Transaction signing process
-- Integration with various software
-- Security best practices
-
-### Advanced Features
-- Lightning Network support
-- Multi-cryptocurrency support
-- API usage
-- Developer tools
+### Easy Usability
+Designed for anyone to use easily without complex installation processes or technical knowledge.
 
 ## Getting Started
 
-Take your first step into the world of secure cryptocurrency storage with Bitcoin USB Wallet. Through our [Getting Started](/en/guide/getting-started) guide, you can learn basic concepts step by step.
+1. Download Bitcoin USB Wallet
+2. Copy executable file to USB drive
+3. Run program on offline computer
+4. Create new wallet or load existing wallet
+5. Start managing Bitcoin safely
+
+---
+
+**Important Note**: If you lose your encrypted wallet file and password, your Bitcoin cannot be recovered. Always maintain secure backups.

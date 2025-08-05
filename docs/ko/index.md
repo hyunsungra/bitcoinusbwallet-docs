@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<CustomLandingEng />
+<CustomLanding />
 
 
 

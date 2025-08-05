@@ -7,76 +7,67 @@ export default defineConfig({
   description: 'Bitcoin USB Wallet 관련 정보를 담은 문서 사이트',
   
   themeConfig: {
-    appearance: false,
+    appearance: 'dark',
     localeLinks: true
   },
   
   locales: {
+
     root: {
-      label: '한국어',
-      lang: 'ko',
+      label: 'English',
+      lang: 'en',
       // 기본 경로는 / 사용
       themeConfig: {
         nav: [
-          { text: '홈', link: '/' },
-          { text: '가이드', link: '/guide/what-is-bitcoin-usb-wallet' },
-          { text: '다운로드', link: '/download' }
+          { text: 'Home', link: '/' },
+          { text: 'Guide', link: '/guide/what-is-bitcoin-usb-wallet' },
+          { text: 'Download', link: 'https://github.com/hyunsungra/bitcoinusbwallet/releases' }
         ],
         sidebar: {
           '/guide/': [
-            {
-              text: '소개',
-              items: [
-                { text: 'Bitcoin USB Wallet이란?', link: '/guide/what-is-bitcoin-usb-wallet' },
-                { text: '시작하기', link: '/guide/getting-started' }
-              ]
-            },
-            {
-              text: '기본 개념',
-              items: [
-                { text: 'Bitcoin 기초', link: '/guide/bitcoin-basics' },
-                { text: '블록체인 이해하기', link: '/guide/understanding-blockchain' }
-              ]
-            }
+            { text: 'What is Bitcoin USB Wallet?', link: '/guide/what-is-bitcoin-usb-wallet' },
+            { text: 'Getting Started', link: '/guide/getting-started' },
+            { text: 'Create Personal Wallet', link: '/guide/create-personal-wallet' },
+            { text: 'Load Personal Wallet', link: '/guide/load-personal-wallet' },
+            { text: 'Send Bitcoin', link: '/guide/send-bitcoin' },
+            { text: 'Binance to Personal Wallet', link: '/guide/binance-to-personal-wallet' },
+            { text: 'Personal Wallet to Binance', link: '/guide/personal-wallet-to-binance' },
           ]
         },
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/yourusername/bitcoin-usb-wallet' }
+          { icon: 'github', link: 'https://github.com/hyunsungra/bitcoinusbwallet' }
         ]        
       }
     },
-    en: {
-      label: 'English',
-      lang: 'en',
-      link: '/en/',
+
+    ko:{
+      label: '한국어',
+      lang: 'ko',
+      link: '/ko/',
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Guide', link: '/en/guide/what-is-bitcoin-usb-wallet' },
-          { text: 'Download', link: '/en/download' }
+          { text: '홈', link: '/ko/' },
+          { text: '가이드', link: '/ko/guide/what-is-bitcoin-usb-wallet' },
+          { text: '다운로드', link: 'https://github.com/hyunsungra/bitcoinusbwallet/releases' }
         ],
         sidebar: {
-          '/en/guide/': [
-            {
-              text: 'Introduction',
-              items: [
-                { text: 'What is Bitcoin USB Wallet?', link: '/en/guide/what-is-bitcoin-usb-wallet' },
-                { text: 'Getting Started', link: '/en/guide/getting-started' }
-              ]
-            },
-            {
-              text: 'Core Concepts',
-              items: [
-                { text: 'Bitcoin Basics', link: '/en/guide/bitcoin-basics' },
-                { text: 'Understanding Blockchain', link: '/en/guide/understanding-blockchain' }
-              ]
-            }
+          '/ko/guide/': [
+            { text: 'BitCoin USB Wallet이란?', link: '/ko/guide/what-is-bitcoin-usb-wallet' },
+            { text: '시작하기', link: '/ko/guide/getting-started' },
+            { text: '개인지갑 생성', link: '/ko/guide/create-personal-wallet' },
+            { text: '지갑 불러오기', link: '/ko/guide/load-personal-wallet' },
+            { text: '비트코인 전송하기', link: '/ko/guide/send-bitcoin' },
+            { text: '바이낸스에서 개인지갑으로 이동', link: '/ko/guide/binance-to-personal-wallet' },
+            { text: '개인지갑에서 바이낸스로 이동', link: '/ko/guide/personal-wallet-to-binance' },
+            { text: '업비트에서 바이낸스로 이동', link: '/ko/guide/upbit-to-binance' },
+            { text: '바이낸스에서 업비트로 이동', link: '/ko/guide/binance-to-upbit' }
           ]
         },
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/yourusername/bitcoin-usb-wallet' }
+          { icon: 'github', link: 'https://github.com/hyunsungra/bitcoinusbwallet' }
         ]
-      }
-    }
+      }        
+    },
+
   }
 })
