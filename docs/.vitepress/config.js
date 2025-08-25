@@ -6,6 +6,11 @@ export default defineConfig({
   title: 'Bitcoin USB Wallet',
   description: 'Bitcoin USB Wallet 관련 정보를 담은 문서 사이트',
   
+  head: [
+    //네이버 사이트 확인     
+    ['meta', { name: 'naver-site-verification', content: '5d7492a93d513b250a37a99a0e82383e686b2008' }],
+  ],
+  
   themeConfig: {
     appearance: 'dark',
     localeLinks: true
